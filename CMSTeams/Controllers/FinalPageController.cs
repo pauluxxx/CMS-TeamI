@@ -1,4 +1,5 @@
 ﻿using CMSTeams.Models;
+using CMSTeams.Models.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;

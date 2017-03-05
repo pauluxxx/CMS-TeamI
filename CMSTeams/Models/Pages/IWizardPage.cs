@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CMSTeams.Models.Core
+namespace CMSTeams.Models
 {
-    public interface IPageStore
+    public interface IWizardPage
     {
-        //IEnumerable<Page> Pages { get;}
+         string WizardPageName();
     }
 }

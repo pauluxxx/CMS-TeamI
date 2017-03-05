@@ -1,13 +1,6 @@
 C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\bin\Debug\CMSConsole.exe.config
 C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\bin\Debug\CMSConsole.exe
 C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\bin\Debug\CMSConsole.pdb
-C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\bin\Debug\CMSTeams.dll
-C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\bin\Debug\System.Web.Mvc.dll
-C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\bin\Debug\EntityFramework.dll
-C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\bin\Debug\CMSTeams.pdb
-C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\bin\Debug\System.Web.Mvc.xml
-C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\bin\Debug\EntityFramework.xml
-C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\bin\Debug\ru\EntityFramework.resources.dll
 C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\obj\Debug\CMSConsole.csprojResolveAssemblyReference.cache
 C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\obj\Debug\CMSConsole.exe
 C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\obj\Debug\CMSConsole.pdb
