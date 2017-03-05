@@ -51,18 +51,29 @@
   <ItemGroup>
     <Compile Include="Application.cs" />
     <Compile Include="ConfigurationHelper.cs" />
+    <Compile Include="Controllers\BasketController.cs" />
+    <Compile Include="Controllers\BasketWizardController.cs" />
+    <Compile Include="Controllers\FinalPageController.cs" />
+    <Compile Include="Controllers\RegisterController.cs" />
+    <Compile Include="Controllers\StartPageController.cs" />
+    <Compile Include="Models\Basket\BasketPage.cs" />
+    <Compile Include="Models\Basket\BasketWizardPage.cs" />
+    <Compile Include="Models\Basket\RegisterPage.cs" />
+    <Compile Include="Models\Constants\PageNames.cs" />
+    <Compile Include="Models\Core\Engine.cs" />
+    <Compile Include="Models\Core\IEngine.cs" />
+    <Compile Include="Models\Core\IPageStore.cs" />
+    <Compile Include="Models\Core\PageStore.cs" />
+    <Compile Include="Models\Pages\FinalPage.cs" />
+    <Compile Include="Models\Pages\IWizardPage.cs" />
+    <Compile Include="Models\Pages\Page.cs" />
+    <Compile Include="Models\Pages\StartPage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CMSTeams\CMSTeams.csproj">
-      <Project>{42ffe25c-4ebd-42e2-accb-15d49cc1ce8b}</Project>
-      <Name>CMSTeams</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

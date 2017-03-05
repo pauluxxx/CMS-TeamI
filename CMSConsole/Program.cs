@@ -1,6 +1,6 @@
-﻿using CMSTeams.Controllers;
-using CMSTeams.Models;
-using CMSTeams.Models.Core;
+﻿using CMSConsole.Controllers;
+using CMSConsole.Models;
+using CMSConsole.Models.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,21 +9,25 @@ using System.Threading.Tasks;
 
 namespace CMSConsole
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        //create field for Store to simplify the name 
+        public static IPageStore Store;
+        public static void Main(string[] args)
         {
             Application.Initialize(ConfigurationHelper.ConfigureDependencies);
             try
             {
-                var injectedEngine = Application.Current.Container.GetInstance<IEngine>();
+                Store = Application.Current.Container.GetInstance<IPageStore>();
 
-                var s = Application.Current.PageStore;
-                var basketPage = Application.Current.PageStore.Pages.OfType<BasketPage>().FirstOrDefault();
+                var injectedEngine = Application.Current.Container.GetInstance<IEngine>();
+                var basketPage = Store.Pages.OfType<BasketPage>().FirstOrDefault();
+                var registerPage = Store.Pages.OfType<RegisterPage>().FirstOrDefault();
+
                 var basketController = new BasketController(basketPage, injectedEngine);
-                basketController.Index();
-                var registerPage = Application.Current.PageStore.Pages.OfType<RegisterPage>().FirstOrDefault();
                 var registerController = new RegisterController(registerPage, injectedEngine);
+
+                basketController.Index();
                 registerController.Index();
 
                 Console.ReadKey();
