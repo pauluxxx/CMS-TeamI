@@ -11,3 +11,8 @@ C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\
 C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\obj\Debug\CMSConsole.csprojResolveAssemblyReference.cache
 C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\obj\Debug\CMSConsole.exe
 C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\obj\Debug\CMSConsole.pdb
+C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\bin\Debug\StructureMap.dll
+C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\bin\Debug\StructureMap.Net4.dll
+C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\bin\Debug\StructureMap.pdb
+C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\bin\Debug\StructureMap.xml
+C:\Users\paulu\OneDrive\Документы\Visual Studio 2012\Projects\CMSTeams\CMSConsole\bin\Debug\StructureMap.Net4.pdb

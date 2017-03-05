@@ -1,6 +1,5 @@
 ﻿using CMSTeams.Controllers;
 using CMSTeams.Models;
-using CMSTeams.Models.Singletone;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -20,13 +20,10 @@ namespace CMSTeams.Controllers
 
         public void Index()
         {
-            Console.WriteLine(page.Name);
-            GoToNextPage();
+            Console.WriteLine(page.Name + " Controller");
+         
         }
 
-        private static void GoToNextPage()
-        {
-        }
 
     }
 }

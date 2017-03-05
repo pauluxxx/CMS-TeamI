@@ -1,6 +1,5 @@
 ﻿using CMSTeams.Models;
 using CMSTeams.Models.Constants;
-using CMSTeams.Models.Singletone;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -55,20 +54,13 @@ namespace CMSTeams.Models.Core
             {
                 if (page.WizardPageName() == PageName.Basket.ToString())
                 {
-                    //if (random.Next(2) == 0)
-                    //{
-                    //    var g = BasketFlow[PageName.Success_Payment.ToString()];
-                    //}
-                    //else { var g = BasketFlow[PageName.Fail_Payment.ToString()]; }
                     return (random.Next(2) == 0) ? BasketFlow[PageName.Success_Payment.ToString()] : BasketFlow[PageName.Fail_Payment.ToString()];
                 }
             }
             if (RegisterFlow.ContainsKey(page.WizardPageName()))
             {
                 if (page.WizardPageName() == PageName.Register.ToString())
-                {Application.Initialize(ConfigurationHelper.ConfigureDependencies);
-
-
+                {
                     return (random.Next(2) == 0) ? RegisterFlow[PageName.Success_Payment.ToString()] : RegisterFlow[PageName.Fail_Payment.ToString()];
                 }
             }

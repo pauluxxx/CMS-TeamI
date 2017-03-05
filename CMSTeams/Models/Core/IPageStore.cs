@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace CMSTeams.Models.Core
 {
-    interface IPageStore
+    public interface IPageStore
     {
-        // IEnumerable<Page> Pages;
-        
+        IEnumerable<Page> Pages { get;}
     }
 }

@@ -100,6 +100,7 @@
     <Compile Include="Controllers\FinalPageController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Models\Basket\RegisterPage.cs" />
+    <Compile Include="Models\Core\Class1.cs" />
     <Compile Include="Models\Core\IEngine.cs" />
     <Compile Include="Models\Constants\PageNames.cs" />
     <Compile Include="Models\Core\Engine.cs" />
@@ -109,13 +110,13 @@
     </Compile>
     <Compile Include="Models\Basket\BasketWizardPage.cs" />
     <Compile Include="Models\Basket\BasketPage.cs" />
+    <Compile Include="Models\Core\Iinter.cs" />
     <Compile Include="Models\Core\IPageStore.cs" />
-    <Compile Include="Models\FinalPage.cs" />
-    <Compile Include="Models\IWizardPage.cs" />
-    <Compile Include="Models\MyIoc\MyIoContainer.cs" />
-    <Compile Include="Models\Page.cs" />
+    <Compile Include="Models\Pages\FinalPage.cs" />
+    <Compile Include="Models\Pages\IWizardPage.cs" />
+    <Compile Include="Models\Pages\Page.cs" />
     <Compile Include="Models\Core\PageStore.cs" />
-    <Compile Include="Models\StartPage.cs" />
+    <Compile Include="Models\Pages\StartPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Run\AppRuner.cs" />
   </ItemGroup>
@@ -176,6 +177,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="ClassDiagram1.cd" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />

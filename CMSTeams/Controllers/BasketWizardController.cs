@@ -37,10 +37,6 @@ namespace CMSTeams.Controllers
                 controller.Index();
                 return;
             }
-            if (nextPage is StartPage)
-            {
-                
-            }
 
             
             

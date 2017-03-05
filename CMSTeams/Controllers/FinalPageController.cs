@@ -18,6 +18,8 @@ namespace CMSTeams.Controllers
         internal void Index()
         {
             Console.WriteLine(page.Name +" is :"+ page.WIN);
-          }
+            var startController = new StartPageController(PageStore.Pages.OfType<StartPage>().FirstOrDefault());
+            startController.Index();
+        }
     }
 }
